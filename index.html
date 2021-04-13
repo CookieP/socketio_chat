@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" name="viewport"/>
+    <title>Socket.IO chat</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="messages"></div>
+    <form class="form">
+      <button type="button" class="name">&nbsp;</button>
+      <input autocomplete="off" class="input" name="message"/>
+      <button type="submit">Send</button>
+    </form>
+    <script defer src="http://35.157.80.184:8080/socket.io/socket.io.js"></script>
+    <script defer src="js/script.js" type="module"></script>
+  </body>
+</html>
